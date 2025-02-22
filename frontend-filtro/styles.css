@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Poppins-Semi";
+    src: url(/Fonts/Poppins-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Poppins-Semi", sans-serif;
+    background: url(https://wallpapers.com/images/hd/business-workspace-jsfw4k7qst552ktt.jpg);
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilo del contenedor principal con borde y blur */
+.container {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+
+/* Estilo para botones y entradas */
+.btn-primary {
+    background-color: #f56565;
+    border-color: #f56565;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ed64a6;
+    border-color: #ed64a6;
+    transform: scale(1.05);
+}
+
+.btn-primary:active {
+    transform: scale(0.95);
+}
+
+.form-control {
+    border-radius: 0.375rem;
+}
+
+
+input, select, textarea{
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
+
