@@ -5,6 +5,11 @@ CoworkTech es una empresa emergente que ha creado una red de espacios de coworki
 
 📅 **El problema:** Actualmente, las reservas se gestionan de forma manual mediante llamadas y correos electrónicos, lo que genera confusión, sobrecargas de trabajo y errores en la asignación de espacios.
 
+## 📌 Solución Problema
+✔ Consultar los espacios disponibles 🏢
+✔ Reservar espacios en función de la disponibilidad 📆
+✔ Gestionar las reservas fácilmente ✅
+
 ## Requerimientos 🌐
 
 - **1️⃣ 🏢 Gestión de Espacios de Coworking:**
