@@ -37,6 +37,7 @@ Cada espacio debe contener:
 
 -**3️⃣ 🌐 API REST y Consumo de Datos:**
 📢 La API debe exponer los siguientes endpoints:
+
 📌 Espacios de coworking:
   🔹 Listar todos los espacios
   🔹 Filtrar por tipo o disponibilidad
@@ -48,14 +49,17 @@ Cada espacio debe contener:
 🔹 No se pueden reservar espacios en el mismo horario si ya están ocupados.
 
 -**5️⃣ 📖 Documentación con Swagger:**
+
 📌 La API debe estar documentada con Swagger/OpenAPI e incluir:
 	✔ Descripción de cada endpoint
 	✔ Parámetros requeridos
 	✔ Posibles respuestas y códigos de error
 
  -**6️⃣ 🗄 Persistencia de Datos con PostgreSQL:**
+ 
  📌 Base de datos relacional utilizando PostgreSQL con Spring Data JPA.
 🔹 Tablas requeridas:
+
 📌 Espacios (con las características mencionadas)
 
   📌 Reservas (con restricciones para evitar solapamientos)
