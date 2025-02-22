@@ -169,3 +169,6 @@ Alexis Rafael Hernández Tocora -- (alexismar1228@gmail.com)
 Alvaro Andres Martínez Alcina -- (alvaro.martinezalcina13@gmail.com)
 
 ## ER Diagram
+![modelo_relacional](https://github.com/user-attachments/assets/b0d79b9b-7a02-4161-80b5-acb18ee7aebe)
+
+
