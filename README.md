@@ -15,15 +15,21 @@ CoworkTech es una empresa emergente que ha creado una red de espacios de coworki
 - **1️⃣ 🏢 Gestión de Espacios de Coworking:**
 Cada espacio debe contener:
 📌 Nombre (Ej: "Sala Azul", "Oficina 3A")
+
 📌 Tipo (oficina privada, sala de reuniones, escritorio compartido)
+
 📌 Capacidad máxima
+
 📌 Disponibilidad (activo/inactivo)
 
 -**2️⃣ 📆 Reservas de Espacios:**
   Los usuarios podrán reservar espacios disponibles. Cada reserva debe contener:
 📌 ID del espacio reservado
+
 📌 Fecha de la reserva
+
 📌 Hora de inicio y fin
+
 📌 Estado de la reserva:
   🔹 Pendiente (cuando se crea)
   🔹 Confirmada (cuando es aceptada por el sistema)
@@ -49,12 +55,15 @@ Cada espacio debe contener:
 
  -**6️⃣ 🗄 Persistencia de Datos con PostgreSQL:**
  📌 Base de datos relacional utilizando PostgreSQL con Spring Data JPA.
-	🔹 Tablas requeridas:
-		📌 Espacios (con las características mencionadas)
-		📌 Reservas (con restricciones para evitar solapamientos)
-		📢 Importante:
-			📌 Los estudiantes deben diseñar la estructura SQL completa, definiendo las tablas y relaciones necesarias.
-			📌 Deben insertar al menos 10 registros de prueba por cada entidad.
+🔹 Tablas requeridas:
+📌 Espacios (con las características mencionadas)
+
+  📌 Reservas (con restricciones para evitar solapamientos)
+  
+📢 Importante:
+📌 Los estudiantes deben diseñar la estructura SQL completa, definiendo las tablas y relaciones necesarias.
+
+📌 Deben insertar al menos 10 registros de prueba por cada entidad.
 
 ## Funcionalidades 🔨
 
