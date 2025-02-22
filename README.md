@@ -131,19 +131,18 @@ Cada espacio debe contener:
 ### 2️⃣ Espacios
 | Metodo | Endpoint               | Descripcion                |
 |--------|-----------------------|-----------------------------|
-| GET    | `/users/{id}`          | Get user profile            |
-| PUT    | `/users/{id}`          | Update user profile         |
-| GET    | `/users/{id}/followers` | Get followers of a user     |
-| GET    | `/users/{id}/following` | Get users the user follows  |
+| GET    | `/api/espacios`          | Obtener Espacios          |
+| POST    | `/api/espacios`          |  Nuevo espacio 	   |
+| GET    | `/api/espacios/{id}` | Obtiene el Espacio    |
+| PUT    | `/api/espacios/{id}` | Atualizar el Espacio  |
+| DELETE    | `/api/espacios/{id}` | Eliminar el Espacio  |
 
 ### 3️⃣ Reservas
 | Metodo | Endpoint          | Descripcion                       |
 |--------|------------------|-------------------------------------|
-| GET    | `/posts`          | Get all posts                      |
-| GET    | `/posts/{id}`     | Get a specific post                |
-| POST   | `/posts`          | Create a new post                  |
-| PUT    | `/posts/{id}`     | Edit a post                        |
-| DELETE | `/posts/{id}`     | Delete a post                      |
+| GET    | `/reservas`          | Obtiene todas las reservas                    |
+| GET    | `/reservas/{id}`     | Obtiene reserva                |
+| POST   | `/reserva/{espacio_id}`          | Crea una reserva                  |
 
 ## ER Diagram
 ![modelo_relacional](https://github.com/user-attachments/assets/b0d79b9b-7a02-4161-80b5-acb18ee7aebe)
